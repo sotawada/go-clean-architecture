@@ -1,0 +1,9 @@
+root = "."
+
+[build]
+  cmd = "go build -o ./tmp/main ./cmd"
+  bin = "./tmp/main"
+  full_bin = "/app/tmp/main"
+
+[log]
+  level = "debug"
